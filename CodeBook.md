@@ -1,6 +1,6 @@
 ##Code Book
 
-Variable Dictionary for Course Project for Getting and Cleaning Data
+Code Book for Course Project for Getting and Cleaning Data
 
 ============================================
 
