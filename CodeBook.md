@@ -4,10 +4,10 @@ Course Project for Getting and Cleaning Data
 
 ============================================
 
-subject
+subject  
 Integers 1 through 30 identifying the experiment's 30 volunteers (age 19-48)
 
-activity
+activity  
 The six activities observed for each of the thirty subjects:
 
 1. walking
@@ -25,259 +25,259 @@ The six activities observed for each of the thirty subjects:
 
 The following variable names represent the mean values and standard deviation for each of the observed signals:
 
-tBodyAccStdX
+tBodyAccStdX  
 Standard deviation for the time domain body acceleration signal along the x axis.
 
-
-tBodyAccStdY
+ 
+tBodyAccStdY  
 Standard deviation for the time domain body acceleration signal along the y axis.
 
 
-tBodyAccStdZ
+tBodyAccStdZ  
 Standard deviation for the time domain body acceleration signal along the z axis.
 
 
-tGravityAccStdX
+tGravityAccStdX  
 Standard deviation for the time domain gravity acceleration signal along the x axis.
 
 
-tGravityAccStdY
+tGravityAccStdY  
 Standard deviation for the time domain gravity acceleration signal along the y axis.
 
 
-tGravityAccStdZ
+tGravityAccStdZ  
 Standard deviation for the time domain gravity acceleration signal along the z axis.
 
 
-tBodyAccJerkStdX
+tBodyAccJerkStdX  
 Standard deviation for the time domain body acceleration jerk signal along the x axis.
 
-
-tBodyAccJerkStdY
+ 
+tBodyAccJerkStdY  
 Standard deviation for the time domain body acceleration jerk signal along the y axis.
 
 
-tBodyAccJerkStdZ
+tBodyAccJerkStdZ  
 Standard deviation for the time domain body acceleration jerk signal along the z axis.
 
 
-tBodyGyroStdX
+tBodyGyroStdX  
 Standard deviation for the time domain body gyroscope signal along the x axis.
 
 
-tBodyGyroStdY
+tBodyGyroStdY  
 Standard deviation for the time domain body gyroscope signal along the y axis.
 
 
-tBodyGyroStdZ
+tBodyGyroStdZ  
 Standard deviation for the time domain body gyroscope signal along the z axis.
 
 
-tBodyGyroJerkStdX
+tBodyGyroJerkStdX  
 Standard deviation for the time domain body gyroscope jerk signal along the x axis.
 
 
-tBodyGyroJerkStdY
+tBodyGyroJerkStdY  
 Standard deviation for the time domain body gyroscope jerk signal along the y axis.
 
 
-tBodyGyroJerkStdZ
+tBodyGyroJerkStdZ  
 Standard deviation for the time domain body gyroscope jerk signal along the z axis.
 
 
-tBodyAccMagStd
+tBodyAccMagStd  
 Standard deviation for the magnitude of the three-dimensional time domain body acceleration signal.
 
 
-tGravityAccMagStd
+tGravityAccMagStd  
 Standard deviation for the magnitude of the three-dimensional time domain gravity signal.
 
 
-tBodyAccJerkMagStd
+tBodyAccJerkMagStd  
 Standard deviation for the magnitude of the three-dimensional time domain body acceleration jerk signal.
 
 
-tBodyGyroMagStd
+tBodyGyroMagStd  
 Standard deviation for the magnitude of the three-dimensional time domain body gyroscope signal.
 
 
-tBodyGyroJerkMagStd
+tBodyGyroJerkMagStd  
 Standard deviation for the magnitude of the three-dimensional time domain body gyroscope jerk signal.
 
 
-fBodyAccStdX
+fBodyAccStdX  
 Standard deviation for the frequency domain body acceleration signal along the x axis.
 
 
-fBodyAccStdY
+fBodyAccStdY  
 Standard deviation for the frequency domain body acceleration signal along the y axis.
 
 
-fBodyAccStdZ
+fBodyAccStdZ  
 Standard deviation for the frequency domain body acceleration signal along the z axis.
 
 
-fBodyAccJerkStdX
+fBodyAccJerkStdX  
 Standard deviation for the frequency domain body acceleration jerk signal along the x axis.
 
 
-fBodyAccJerkStdY
+fBodyAccJerkStdY  
 Standard deviation for the frequency domain body acceleration jerk signal along the y axis.
 
 
-fBodyAccJerkStdZ
+fBodyAccJerkStdZ  
 Standard deviation for the frequency domain body acceleration jerk signal along the z axis.
 
 
-fBodyGyroStdX
+fBodyGyroStdX  
 Standard deviation for the frequency domain body gyroscope signal along the x axis.
 
 
-fBodyGyroStdY
+fBodyGyroStdY  
 Standard deviation for the frequency domain body gyroscope signal along the y axis.
 
 
-fBodyGyroStdZ
+fBodyGyroStdZ  
 Standard deviation for the frequency domain body gyroscope signal along the z axis.
 
 
-fBodyAccMagStd
+fBodyAccMagStd  
 Standard deviation for the magnitude of the three-dimensional frequency domain body acceleration signal.
 
 
-fBodyAccJerkMagStd
+fBodyAccJerkMagStd  
 Standard deviation for the magnitude of the three-dimensional frequency domain body acceleration jerk signal.
 
 
-fBodyGyroMagStd
+fBodyGyroMagStd  
 Standard deviation for the magnitude of the three-dimensional frequency domain body gyroscope signal.
 
 
-fBodyGyroJerkMagStd
+fBodyGyroJerkMagStd  
 Standard deviation for the magnitude of the three-dimensional frequency domain body gyroscope jerk signal.
 
 
-tBodyAccMeanX
+tBodyAccMeanX  
 Mean value for the time domain body acceleration signal along the x axis.
 
 
-tBodyAccMeanY
+tBodyAccMeanY  
 Mean value for the time domain body acceleration signal along the y axis.
 
 
-tBodyAccMeanZ
+tBodyAccMeanZ  
 Mean value for the time domain body acceleration signal along the z axis.
 
 
-tGravityAccMeanX
+tGravityAccMeanX   
 Mean value for the time domain gravity acceleration signal along the x axis.
 
 
-tGravityAccMeanY
+tGravityAccMeanY  
 Mean value for the time domain gravity acceleration signal along the y axis.
 
 
-tGravityAccMeanZ
+tGravityAccMeanZ  
 Mean value for the time domain gravity acceleration signal along the z axis.
 
 
-tBodyAccJerkMeanX
+tBodyAccJerkMeanX  
 Mean value for the time domain body acceleration jerk signal along the x axis.
 
 
-tBodyAccJerkMeanY
+tBodyAccJerkMeanY  
 Mean value for the time domain body acceleration jerk signal along the y axis.
 
 
-tBodyAccJerkMeanZ
+tBodyAccJerkMeanZ  
 Mean value for the time domain body acceleration jerk signal along the z axis.
 
 
-tBodyGyroMeanX
+tBodyGyroMeanX  
 Mean value for the time domain body gyroscope signal along the x axis.
 
 
-tBodyGyroMeanY
+tBodyGyroMeanY  
 Mean value for the time domain body gyroscope signal along the y axis.
 
 
-tBodyGyroMeanZ
+tBodyGyroMeanZ  
 Mean value for the time domain body gyroscope signal along the z axis.
 
 
-tBodyGyroJerkMeanX
+tBodyGyroJerkMeanX  
 Mean value for the time domain body gyroscope jerk signal along the x axis.
 
 
-tBodyGyroJerkMeanY
+tBodyGyroJerkMeanY  
 Mean value for the time domain body gyroscope jerk signal along the y axis.
 
 
-tBodyGyroJerkMeanZ
+tBodyGyroJerkMeanZ  
 Mean value for the time domain body gyroscope jerk signal along the z axis.
 
 
-tBodyAccMagMean
+tBodyAccMagMean  
 Mean value for the magnitude of the three-dimensional time domain body acceleration signal.
 
 
-tGravityAccMagMean
+tGravityAccMagMean  
 Mean value for the magnitude of the three-dimensional time domain gravity acceleration signal.
 
 
-tBodyAccJerkMagMean
+tBodyAccJerkMagMean  
 Mean value for the magnitude of the three-dimensional time domain body acceleration jerk signal.
 
 
-tBodyGyroMagMean
+tBodyGyroMagMean  
 Mean value for the magnitude of the three-dimensional time domain gyroscope signal.
 
 
-tBodyGyroJerkMagMean
+tBodyGyroJerkMagMean  
 Mean value for the magnitude of the three-dimensional time domain gyroscope jerk signal.
 
 
-fBodyAccMean
+fBodyAccMean  
 Mean value for the frequency domain body acceleration signal along the x axis.
 
 
-fBodyAccMeanY
+fBodyAccMeanY  
 Mean value for the frequency domain body acceleration signal along the y axis.
 
 
-fBodyAccMeanZ
+fBodyAccMeanZ  
 Mean value for the frequency domain body acceleration signal along the z axis.
 
 
-fBodyAccJerkMeanX
+fBodyAccJerkMeanX  
 Mean value for the frequency domain body acceleration jerk signal along the x axis.
 
 
-fBodyAccJerkMeanY
+fBodyAccJerkMeanY  
 Mean value for the frequency domain body acceleration jerk signal along the y axis.
 
 
-fBodyAccJerkMeanZ
+fBodyAccJerkMeanZ  
 Mean value for the frequency domain body acceleration jerk signal along the z axis.
 
 
-fBodyGyroMeanX
+fBodyGyroMeanX  
 Mean value for the frequency domain body gyroscope signal along the x axis.
 
-
-fBodyGyroMeanY
+ 
+fBodyGyroMeanY  
 Mean value for the frequency domain body gyroscope signal along the y axis.
 
 
-fBodyGyroMeanZ
+fBodyGyroMeanZ  
 Mean value for the frequency domain body gyroscope signal along the z axis.
 
 
-fBodyAccMagMean
+fBodyAccMagMean  
 Mean value for the magnitude of the three-dimensional frequency domain body acceleration signal.
 
 
-fBodyAccJerkMagMean
+fBodyAccJerkMagMean  
 Mean value for the magnitude of the three-dimensional frequency domain body acceleration jerk signal.
 
 
@@ -285,5 +285,5 @@ fBodyGyroMagMean
 Mean value for the magnitude of the three-dimensional frequency domain body gyroscope signal.
 
 
-fBodyGyroJerkMagMean
+fBodyGyroJerkMagMean  
 Mean value for the magnitude of the three-dimensional frequency domain body gyroscope jerk signal.
