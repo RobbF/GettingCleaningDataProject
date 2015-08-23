@@ -8,19 +8,13 @@ subject
 Integers 1 through 30 identifying the experiment's 30 volunteers (age 19-48)
 
 activity  
-The six activities observed for each of the thirty subjects:
-
-1. walking
-
-2. walking upstairs
-
-3. walking downstairs
-
-4. sitting
-
-5. standing
-
-6. laying
+The six activities observed for each of the thirty subjects:  
+1. walking  
+2. walking upstairs  
+3. walking downstairs  
+4. sitting  
+5. standing  
+6. laying  
 
 
 The following variable names represent the mean values and standard deviation for each of the observed signals:
@@ -281,7 +275,7 @@ fBodyAccJerkMagMean
 Mean value for the magnitude of the three-dimensional frequency domain body acceleration jerk signal.
 
 
-fBodyGyroMagMean
+fBodyGyroMagMean  
 Mean value for the magnitude of the three-dimensional frequency domain body gyroscope signal.
 
 
