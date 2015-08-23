@@ -49,7 +49,26 @@ In order to create the mean\_summary dataset, 'run\_analysis.R' executes the fol
 14. The resulting mean\_summary data frame is written to a text file and saved in the UCI HAR Dataset folder.  
 15. The working directory is reset to the parent folder housing both the run\_analysis.R script and the UCI HAR Dataset folder.    
 
-IV. Description of Original Dataset
+IV. Description of Variable Names
+=================================
+The variable names provided in the 'mean_summary' data frame are defined in the code book provided here. (See CodeBook.md). While I did clean the variable names both for consistency and to remove symbols such as dashes and parentheses that complicated the variable names for programmatic use within R, I otherwise chose to retain the abbreviated nature of the original variable names in order to not have overly long variable names that would make the data frame unwieldy to view within R (as the column widths would be considerable). The meanings of each of the variable names are clearly defined within CodeBook.md.
+
+
+V. How to View Data Frame in 'mean_summary.txt' File
+=====================================================
+To view the data in 'mean_summary.txt' the following R code should be used ('mean_summary.txt' should be on main level of working directory):
+dat <- read.table('UCI HAR Dataset/mean_summary.txt', header = TRUE)
+View(dat)
+
+
+VI. Why Should the Data Frame in 'mean_summary.txt' Be Considered 'Tidy'?
+========================================================================
+Per the rules governing tidy data sets:
+1. each column represents one variable (subject, activity, and 66 separate data points for each subject and activity).
+2. each row represents one observation (a mean value derived from all obervations for this subject and activity in original dataset).
+
+
+VII. Description of Original Dataset
 ===================================
 The description for the original Human Activity Recognition Using Smartphones Dataset from which the mean values presented in mean\_summary.txt are derived is as follows:
 
