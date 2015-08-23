@@ -28,7 +28,7 @@ In order to create the mean\_summary dataset, 'run\_analysis.R' executes the fol
 
 1. Loads the dplyr package, in order to make use of this package's 'group\_by' and 'summarise\_each' functions.  
 2. Sets the 'UCI HAR Dataset' folder as the working directory.  
-3. Reads in the data from both the training and test sets of data present in UCI HAR Dataset and creates two data frames, one for the test data and one for the training data.  
+3. Reads in the data from both the training and test sets of data containted in UCI HAR Dataset and creates two data frames, one for the test data ('test\_data') and one for the training data ('train\_data').  
 4. Merges the resulting test and training data frames into a merged data frame ('merge\_data').  
 5. Derives a list of variable names for all of the observations in the original dataset from the 'features.txt' file available in the UCI Har Dataset folder.  
 6. Cleans up the variable names to create consistent naming (unlike the original dataframe, where mean is usually indicated in variable names as '-mean()' but occasionally as 'Mean'). Parentheses and dashes are also cleaned from variable names to ease complication with programmatic use of variable names. 
