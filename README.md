@@ -8,8 +8,8 @@ I. Contents of  dataset
 The dataset includes the four following files:
 
 1. README.md  - this README file.
-2. run\_analysis.R  a script that will produce a data frame presenting the mean values from a subset of a larger dataset defined below.
-3. mean\_summary.txt  the data frame that results from successfully running the 'run\_analysis.R' script.
+2. run\_analysis.R - a script that will produce a data frame presenting the mean values from a subset of a larger dataset defined below.
+3. mean\_summary.txt - the data frame that results from successfully running the 'run\_analysis.R' script.
 4. CodeBook.md - defining the variable names included in the mean\_summary data frame.  
 
 
@@ -26,7 +26,7 @@ III. Description of the 'run\_analysis.R' Script
 ================================================
 In order to create the mean\_summary dataset, 'run\_analysis.R' executes the following steps (also detailed in the comments within 'run\_analysis.R'):
 
-1. Loads the dplyr package, in order to make use of this package's 'arrange', 'group\_by' and 'summarise\_each' functions.  
+1. Loads the dplyr package, in order to make use of this package's 'group\_by' and 'summarise\_each' functions.  
 2. Sets the 'UCI HAR Dataset' folder as the working directory.  
 3. Reads in the data from both the training and test sets of data present in UCI HAR Dataset and creates two data frames, one for the test data and one for the training data.  
 4. Merges the resulting test and training data frames into a merged data frame ('merge\_data').  
