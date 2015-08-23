@@ -14,14 +14,14 @@ train_results <- read.table('train/X_train.txt')
 train_activity <- read.table('train/y_train.txt')
 train_subject <- read.table('train/subject_train.txt')
 
+##create training table by column binding 
+train_data <- cbind(train_subject, train_activity, train_results)
+
 ##create test table
-test_data <- cbind(train_subject, train_activity, train_results)
+test_data <- cbind(test_subject, test_activity, test_results)
 
-##create train table
-train_data <- cbind(test_subject, test_activity, test_results)
-
-##merge test and train tables
-merge_data <- rbind(test_data, train_data)
+##merge test and train tables to create merged data
+merge_data <- rbind(train_data, test_data)
 
 ##upload features.txt and use to create column variable headings
 variable_names <- read.table('features.txt', stringsAsFactors = FALSE)[,2]
