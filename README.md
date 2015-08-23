@@ -56,16 +56,16 @@ The variable names provided in the 'mean_summary' data frame are defined in the 
 
 V. How to View Data Frame in 'mean_summary.txt' File
 =====================================================
-To view the data in 'mean_summary.txt' the following R code should be used ('mean_summary.txt' should be on main level of working directory):
-dat <- read.table('UCI HAR Dataset/mean_summary.txt', header = TRUE)
+To view the data in 'mean_summary.txt' the following R code should be used ('mean_summary.txt' should be on main level of working directory):  
+dat <- read.table('UCI HAR Dataset/mean_summary.txt', header = TRUE)  
 View(dat)
 
 
 VI. Why Should the Data Frame in 'mean_summary.txt' Be Considered 'Tidy'?
 ========================================================================
-Per the rules governing tidy data sets:
-1. each column represents one variable (subject, activity, and 66 separate data points for each subject and activity).
-2. each row represents one observation (a mean value derived from all obervations for this subject and activity in original dataset).
+Per the rules governing tidy data sets:  
+1. each column represents one variable (subject, activity, and 66 separate data points for each subject and activity).  
+2. each row represents one observation (a mean value derived from all obervations for this subject and activity in original dataset).  
 
 
 VII. Description of Original Dataset
