@@ -19,7 +19,7 @@ The 'mean\_summary' dataset is derived from the much larger Human Activity Recog
 
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-This zip file should be unpacked in the same folder where you have stored the 'run\_analysis.R' script. After this file is unpacked, the 'run\_analysis.R' script can be run, which will result in the subset dataset ('mean\_summary.txt') being created and saved inside the UCI Har Dataset folder (the top level folder for the larger dataset).  
+This zip file should be uncompressed in the same folder where you have stored the 'run\_analysis.R' script. After this file is uncompressed, the 'run\_analysis.R' script can be run, which will result in the subset dataset ('mean\_summary.txt') being created and saved inside the UCI Har Dataset folder (the top level folder for the larger dataset).  
 
 
 III. Description of the 'run\_analysis.R' Script
