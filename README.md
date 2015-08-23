@@ -54,7 +54,7 @@ IV. Description of Variable Names
 The variable names provided in the 'mean_summary' data frame are defined in the code book provided here. (See CodeBook.md). While I did clean the variable names both for consistency and to remove symbols such as dashes and parentheses that complicated the variable names for programmatic use within R, I otherwise chose to retain the abbreviated nature of the original variable names in order to not have overly long variable names that would make the data frame unwieldy to view within R (as the column widths would be considerable). The meanings of each of the variable names are clearly defined within CodeBook.md.
 
 
-V. How to View Data Frame in 'mean_summary.txt' File
+V. How to View the Data Frame in 'mean_summary.txt' File
 =====================================================
 To view the data in 'mean_summary.txt' the following R code should be used ('mean_summary.txt' should be on main level of working directory):  
 dat <- read.table('UCI HAR Dataset/mean_summary.txt', header = TRUE)  
