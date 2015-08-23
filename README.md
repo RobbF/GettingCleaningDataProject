@@ -15,11 +15,11 @@ The dataset includes the four following files:
 
 II. Introduction and Instructions for Use
 =========================================
-The 'mean\_summary" dataset is derived from the much larger Human Activity Recognition Using Smartphones Dataset. In order to run the 'run\_analysis.R script', it is necessary to first download the original dataset from the following link:
+The 'mean\_summary' dataset is derived from the much larger Human Activity Recognition Using Smartphones Dataset. In order to run the 'run\_analysis.R script', it is necessary to first download this original dataset from the following link:
 
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-This file should be unpacked in the same folder where you have stored the 'run\_analysis.R' script. After this file is unpacked, the 'run\_analysis.R' script can be run, which will result in the subset dataset ('mean\_summary.txt') being created and saved inside the UCI Har Dataset folder (the top level folder for the larger dataset).  
+This zip file should be unpacked in the same folder where you have stored the 'run\_analysis.R' script. After this file is unpacked, the 'run\_analysis.R' script can be run, which will result in the subset dataset ('mean\_summary.txt') being created and saved inside the UCI Har Dataset folder (the top level folder for the larger dataset).  
 
 
 III. Description of the 'run\_analysis.R' Script
