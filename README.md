@@ -3,7 +3,7 @@
 #Course Project for the Getting and Cleaning Data Section of the Coursera/John Hopkins University Data Science Course
 
 
-I. Contents of  dataset
+I. Contents of Dataset
 =======================
 The dataset includes the four following files:
 
