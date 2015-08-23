@@ -67,15 +67,11 @@ fd$activity[fd$activity == "4"] <- "sitting"
 fd$activity[fd$activity == "5"] <- "standing"
 fd$activity[fd$activity == "6"] <- "laying"
 
-##arrange the merged and filtered data frame first by subject and then by activity
-##(n.b. not required in assignment)
-arranged <- arrange(fd, subject, activity)
-
 ##ucreate data frame that lists the calculated mean for all of the mean (Mean) 
 ##and standard deviation (Std) observations in arranged fd table.
 ##group table into subsets (using dplyr's group_by function) by subject and then by activity,
 ##and then use summarise_each (in dplyr package) to calculate all means for grouped subsets
-mean_summary <- arranged %>% group_by(subject, activity) %>% summarise_each(funs(mean))
+mean_summary <- fd %>% group_by(subject, activity) %>% summarise_each(funs(mean))
 
 ##upload resulting mean_summary table as txt file to UCI HAR Dataset folder
 write.table(mean_summary, file = 'mean_summary.txt', row.names = FALSE)
