@@ -1,4 +1,4 @@
-##load dplyr package for arrange, group_by and summarise_each functions
+##load dplyr package for group_by and summarise_each functions
 library(dplyr)
 
 ##set working directory to dataset folder
