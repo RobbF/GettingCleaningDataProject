@@ -15,10 +15,10 @@ These signals were used to estimate variables of the feature vector for each pat
 
 Based on this information, the variables found in the included 'mean_summary' data frame are defined as follows:
 
-subject  
+*subject* 
 Integers 1 through 30 identifying the experiment's 30 volunteers (age 19-48)
 
-activity  
+*activity*
 The six activities observed for each of the thirty subjects:  
 1. walking  
 2. walking upstairs  
@@ -30,7 +30,7 @@ The six activities observed for each of the thirty subjects:
 
 The following variable names represent the mean values and standard deviation for each of the observed signals:
 
-tBodyAccStdX  
+*tBodyAccStdX*  
 Standard deviation for the time domain body acceleration signal along the x axis.
 
  
