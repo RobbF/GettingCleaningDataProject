@@ -45,7 +45,7 @@ In order to create the mean\_summary dataset, 'run\_analysis.R' executes the fol
 10. A subset of this larger data frame (filtered\_data) which includes only mean values and standard deviations from the original dataset is then created by filtering out variables that have neither "Mean" (for mean value) or "Std" (for standard deviation) in the variable name. This results in a table with 68 columns (subject, activity, 33 mean values and 33 standard deviations) and 10299 rows (representing all of the observations recorded in the experiment).  
 11. The integers in the activities column are replaced with the names of the actual activities that these integers (1-6) represent: walking, walking upstairs, walking downstairs, sitting, standing and laying.  
 12. The resulting dataframe ('filtered\_data') is grouped, first by subject and then by activity, using 'group\_by' from the dplyr package.  
-13. Mean values are derived from the grouped data frame using the dplyr package's summarise\_each function. These mean values are compiled into the final mean\_summary dataframe.  
+13. Mean values of all 'mean value' and 'standard deviation' variables for each subject and activity are derived from the grouped data frame using the dplyr package's summarise\_each function. These mean values are compiled into the final mean\_summary dataframe.  
 14. The resulting mean\_summary data frame is written to a text file and saved in the UCI HAR Dataset folder.  
 15. The working directory is reset to the parent folder housing both the run\_analysis.R script and the UCI HAR Dataset folder.    
 
